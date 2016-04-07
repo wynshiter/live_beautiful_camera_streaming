@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/3/4 13:51:50。
+     1>项目“E:\code\test\live_beautiful_camera_streaming\live_beautiful_camera_streaming\live_beautiful_camera_streaming.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\live_beautiful_camera_streaming.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\live_beautiful_camera_streaming.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt My_Enhance.cpp
+         My_Enhance.cpp
+     1>d:\program files\opencv2410\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>My_Enhance.cpp(96): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>My_Enhance.cpp(96): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>My_Enhance.cpp(96): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>My_Enhance.cpp(173): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>My_Enhance.cpp(174): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>My_Enhance.cpp(175): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\test\live_beautiful_camera_streaming\Release\live_beautiful_camera_streaming.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\live_beautiful_camera_streaming.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code\test\live_beautiful_camera_streaming\Release\live_beautiful_camera_streaming.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\test\live_beautiful_camera_streaming\Release\live_beautiful_camera_streaming.lib" /MACHINE:X86 Release\My_face_detetion.obj
+         Release\live_beautiful_camera_streaming.obj
+         Release\My_Enhance.obj
+         Release\My_Yuv_to_H264.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         live_beautiful_camera_streaming.vcxproj -> E:\code\test\live_beautiful_camera_streaming\Release\live_beautiful_camera_streaming.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code\test\live_beautiful_camera_streaming\Release\live_beautiful_camera_streaming.exe;#1" /manifest Release\live_beautiful_camera_streaming.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\live_beautiful_camera_streaming.unsuccessfulbuild”。
+         正在对“Release\live_beautiful_camera_streaming.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\test\live_beautiful_camera_streaming\live_beautiful_camera_streaming\live_beautiful_camera_streaming.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.74
