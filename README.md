@@ -24,8 +24,8 @@ H264的流一般就可以播放了，但是针对目前的网络直播主要是�
  
 ###5.技术难点
 1.将人脸美化转换为皮肤检测
-	2.各种编码的转换
-	3.缓冲区的控制，这块是一个读者写着模型
+		2.各种编码的转换
+		3.缓冲区的控制，这块是一个读者写着模型
 
 实现效果：
 ![](https://github.com/wynshiter/live_beautiful_camera_streaming/blob/master/result.jpg)
@@ -34,12 +34,12 @@ H264的流一般就可以播放了，但是针对目前的网络直播主要是�
 
 ···cpp
 
-/#include "stdafx.h"
-/#include "live_beautiful_camera_streaming.h"
-/#include "CircleBuffer.h"
-using namespace std;
-using namespace cv;
-/#define  GOLABLE_BUFFER_SIZE 1024*64
+ #include "stdafx.h"
+ #include "live_beautiful_camera_streaming.h"
+ #include "CircleBuffer.h"
+ using namespace std;
+ using namespace cv;
+ #define  GOLABLE_BUFFER_SIZE 1024*64
 CPs_CircleBuffer* m_pCircleBuffer;
 
 void CameraToH264(void *pcn) 
