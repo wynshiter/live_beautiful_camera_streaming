@@ -26,4 +26,4 @@ H264的流一般就可以播放了，但是针对目前的网络直播主要是�
 3.缓冲区的控制，这块是一个读者写着模型
 
 实现效果：
-![](https://github.com/wynshiter/live_beautiful_camera_streaming/edit/master/result.jpg)
+![](https://github.com/wynshiter/live_beautiful_camera_streaming/blob/master/result.jpg)
