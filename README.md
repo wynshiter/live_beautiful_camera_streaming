@@ -1,7 +1,9 @@
 # live_beautiful_camera_streaming
 In the windows operating system, using a regular USB camera, image acquisition and beauty, and the result is encoded into H264 format push RTMP server sent to live
-程序流程：
 
+##程序流程：
+
+![](https://github.com/wynshiter/live_beautiful_camera_streaming/blob/master/process.jpg)
 
 1.图像采集
 先从opencv（2.4.10版本）采集回来摄像头的图像，是一帧一帧的
