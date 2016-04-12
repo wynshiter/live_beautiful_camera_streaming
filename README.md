@@ -22,7 +22,7 @@ H264转换成rtmp流，libxrtmp实现
 ###4.发送给服务器进行直播
 H264的流一般就可以播放了，但是针对目前的网络直播主要是将h264转换成rtmp流，用rtmp的服务器进行播放，这块我们主要用的是adobe media server 5这个服务器进行接受工作
  
-5.技术难点
+###5.技术难点
 1.将人脸美化转换为皮肤检测
 2.各种编码的转换
 3.缓冲区的控制，这块是一个读者写着模型
@@ -33,18 +33,14 @@ H264的流一般就可以播放了，但是针对目前的网络直播主要是�
 ###部分代码：
 
 ···cpp
+
 #include "stdafx.h"
 #include "live_beautiful_camera_streaming.h"
 #include "CircleBuffer.h"
-
 using namespace std;
 using namespace cv;
 #define  GOLABLE_BUFFER_SIZE 1024*64
-
-
-
 CPs_CircleBuffer* m_pCircleBuffer;
-
 
 void CameraToH264(void *pcn) 
 {
@@ -105,10 +101,6 @@ void H264ToRtmp(void *pcn)
 	
 }
 
-
-/**
-* @function main
-*/
 int main( void )
 {
 	m_pCircleBuffer = new CPs_CircleBuffer(GOLABLE_BUFFER_SIZE);
