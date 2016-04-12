@@ -23,9 +23,9 @@ H264转换成rtmp流，libxrtmp实现
 H264的流一般就可以播放了，但是针对目前的网络直播主要是将h264转换成rtmp流，用rtmp的服务器进行播放，这块我们主要用的是adobe media server 5这个服务器进行接受工作
  
 ###5.技术难点
-		将人脸美化转换为皮肤检测
-		各种编码的转换
-		缓冲区的控制，这块是一个读者写着模型
+		1.将人脸美化转换为皮肤检测
+		2.各种编码的转换
+		3.缓冲区的控制，这块是一个读者写着模型
 
 实现效果：
 ![](https://github.com/wynshiter/live_beautiful_camera_streaming/blob/master/result.jpg)
